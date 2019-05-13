@@ -1,8 +1,26 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/education/education",
+    "pages/engage/engage",
+    "pages/donation/donation",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/education/education",
+        "text": "Education"
+      },
+      {
+        "pagePath": "pages/engage/engage",
+        "text": "Engage"
+      },
+      {
+        "pagePath": "pages/donation/donation",
+        "text": "Donation"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

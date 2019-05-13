@@ -1,4 +1,4 @@
-/**index.wxss**/
+/* pages/donation/donation.wxss */
 .userinfo {
   display: flex;
   flex-direction: column;

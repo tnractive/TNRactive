@@ -1,0 +1,4 @@
+<!--education.wxml-->
+<view class="container">
+<text>Education</text>
+</view>

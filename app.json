@@ -3,7 +3,8 @@
     "pages/education/education",
     "pages/engage/engage",
     "pages/donation/donation",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/profile/profile"
   ],
   "tabBar": {
     "list": [
@@ -18,6 +19,10 @@
       {
         "pagePath": "pages/donation/donation",
         "text": "Donation"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "Profile"
       }
     ]
   },

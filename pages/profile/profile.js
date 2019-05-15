@@ -1,17 +1,29 @@
+const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+    userInfo: {}
+  },
+
+  //事件处理函数
+  bindViewTap: function () {
+    wx.navigateTo({
+      url: '../logs/logs'
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    console.log(app.globalData.userInfo)    
+    this.setData({
+      userInfo: app.globalData.userInfo
+    })
   },
 
   /**

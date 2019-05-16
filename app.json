@@ -4,7 +4,8 @@
     "pages/engage/engage",
     "pages/donation/donation",
     "pages/logs/logs",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/new-post/new-post"
   ],
   "tabBar": {
     "list": [

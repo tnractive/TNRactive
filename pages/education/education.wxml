@@ -1,4 +1,15 @@
 <!--education.wxml-->
 <view class="container">
-<text>Education</text>
+  <text>Education</text>
+
+  <view>
+    <view class="posts">
+      <view wx:for="{{educationPosts}}">
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+    <view>
+      <button type="primary" bindtap="add">New Post</button>
+    </view>
+  </view>
 </view>
